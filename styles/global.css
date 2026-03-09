@@ -6,10 +6,8 @@
 
 :root {
     --font-family: 'Poppins', sans-serif;
-    --text: 400 1rem/1.5 var(--font-family); 
-    --text-sm: 400 .875rem/1.4 var(--font-family)
-
-    --brand-light: #F67841;
+    --text: 400 1rem/1.5 var(--font-family);
+    --text-sm: 400 .875rem/1.4 var(--font-family) --brand-light: #F67841;
     --brand-mid: #F3541C;
     --brand-dark: #E43A12;
 
@@ -35,11 +33,24 @@ body {
     color: var(--text-secondary);
 }
 
-h1, h2 {
+h1,
+h2 {
     color: var(--text-primary)
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
 }
